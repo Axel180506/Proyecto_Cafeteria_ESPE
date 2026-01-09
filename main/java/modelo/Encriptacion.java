@@ -5,7 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 
 public class Encriptacion {
-//ola
+
     public static String encriptarContraseña(String contraseña) {
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
@@ -22,3 +22,4 @@ public class Encriptacion {
     }
 
 }
+
